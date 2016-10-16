@@ -1,0 +1,38 @@
+.documentWrapper {
+	margin: 0 auto;
+	width: 600px;
+}
+
+
+header {
+	color: red;
+}
+
+.positionFixed	{
+	padding: 15px;
+	background-color: #eee;
+	width: 90px;
+	text-align: center;
+	position: fixed;
+}
+
+.positionRelative {
+	background-color: #eee;
+	padding-top: 15px;
+	width: 100%;
+	text-align: center;
+	height: 200px;
+	position: relative;
+}
+
+.positionAbsolute	{
+	background-color: #999;
+	padding-top: 15px;
+	width: 40%;
+	text-align: center;
+	height: 70px;
+	position: absolute;
+	bottom:0px;
+	right: -25px;
+
+}
